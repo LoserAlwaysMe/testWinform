@@ -14,6 +14,7 @@ namespace testWinform
         [STAThread]
         static void Main()
         {
+            MessageBox.Show("master");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
